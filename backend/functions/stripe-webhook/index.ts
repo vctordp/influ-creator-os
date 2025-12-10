@@ -1,5 +1,6 @@
 // Follow this setup guide to deploy: https://supabase.com/docs/guides/functions/deploy
 // Or copy-paste into Supabase Dashboard > Edge Functions > Create new "stripe-webhook"
+// DEPLOYMENT TEST: Triggering GitHub Action...
 
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts"
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2"
